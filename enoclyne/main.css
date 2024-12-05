@@ -1,0 +1,119 @@
+/* General Reset and Box Model */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+/* Main Page (index.html) */
+.main-page {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.filters {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.filter-item {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.filter-item h2 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+#category, #search {
+    padding: 10px;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.projects-section {
+    margin-top: 30px;
+}
+
+.projects-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.project-box {
+    display: block;
+    text-align: center;
+    padding: 30px;
+    background-color: #2196F3;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    border-radius: 8px;
+}
+
+.project-box:hover {
+    background-color: #0b79d0;
+}
+
+/* Project Page (e.g., andrew.html) */
+.project-page {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.project-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.image-category {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.image-category h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.image-category img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 30px;
+}
+

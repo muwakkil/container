@@ -1,0 +1,152 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #182349;
+    color:#ccc;
+}
+
+/* Main Page Styles */
+.main-page {
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Category and Search Bar Section */
+.filters {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.filter-item {
+    flex: 1;
+    text-align: center;
+}
+
+.filter-item h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.categories select,
+.search-bar input {
+    padding: 15px 20px;
+    font-size: 1.5em;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 100%;
+    height: 60px;
+}
+
+/* Projects Section Styles */
+.projects-section h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+/* Flexbox Layout for Projects */
+.projects-list {
+    display: flex;
+    flex-direction: column; /* One project per row */
+    margin: 0;
+    padding: 0;
+}
+
+.projects-list a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 250px; /* Height set for rectangle project boxes */
+    margin: 10px 0; /* Space between project boxes vertically */
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5em;
+    color: #000000;
+    text-decoration: none;
+    background-color: #ddd;
+
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-sizing: border-box; /* Ensures padding is inside the width/height */
+}
+
+.projects-list a:hover {
+    background-color: #007bff;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+/* Different Background Colors for Each Project */
+.projects-list a:nth-child(1) {
+    background-color: #9f222c;
+}
+
+.projects-list a:nth-child(2) {
+    background-color: #910a0a;
+}
+
+.projects-list a:nth-child(3) {
+    background-color: #00e513;
+}
+
+.projects-list a:nth-child(4) {
+    background-color: #c8b36b;
+}
+
+.projects-list a:nth-child(5) {
+    background-color: #345361;
+}
+
+.projects-list a:nth-child(6) {
+    background-color: #f6b8ee;
+}
+
+.projects-list a:nth-child(7) {
+    background-color: #45a8ba;
+}
+
+.projects-list a:nth-child(8) {
+    background-color: #400744;
+}
+
+.projects-list a:nth-child(9) {
+    background-color: #880322;
+}
+
+.projects-list a:nth-child(10) {
+    background-color: #fbff00;
+}
+
+.projects-list a:nth-child(11) {
+    background-color: #153421;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .projects-list a {
+        height: 200px; /* Smaller height on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .projects-list a {
+        height: 150px; /* Even smaller height on very small screens */
+    }
+}
+
+
+
+
+
