@@ -94,11 +94,11 @@ h1 {
 }
 
 .projects-list a:nth-child(2) {
-    background-color: #910a0a;
+    background-color: #f06b6b;
 }
 
 .projects-list a:nth-child(3) {
-    background-color: #00e513;
+    background-color: #92c896;
 }
 
 .projects-list a:nth-child(4) {
@@ -106,7 +106,7 @@ h1 {
 }
 
 .projects-list a:nth-child(5) {
-    background-color: #345361;
+    background-color: #4a606a;
 }
 
 .projects-list a:nth-child(6) {
@@ -114,23 +114,23 @@ h1 {
 }
 
 .projects-list a:nth-child(7) {
-    background-color: #45a8ba;
+    background-color: #b4eaf4;
 }
 
 .projects-list a:nth-child(8) {
-    background-color: #400744;
+    background-color: #f3a1f8;
 }
 
 .projects-list a:nth-child(9) {
-    background-color: #880322;
+    background-color: #6c2133;
 }
 
 .projects-list a:nth-child(10) {
-    background-color: #fbff00;
+    background-color: #fafb9e;
 }
 
 .projects-list a:nth-child(11) {
-    background-color: #153421;
+    background-color: #487459;
 }
 
 /* Responsive Design */
