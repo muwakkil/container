@@ -3,8 +3,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #182349;
-    color:#ccc;
+    background-color: #010411;
+    color:#faf7e7;
 }
 
 /* Main Page Styles */
@@ -15,10 +15,14 @@ body {
 header {
     text-align: center;
     margin-bottom: 30px;
+    font-family: "Rammetto One", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 h1 {
     margin: 0;
+
 }
 
 /* Category and Search Bar Section */
@@ -73,7 +77,7 @@ h1 {
     margin: 10px 0; /* Space between project boxes vertically */
     padding: 20px;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 2em;
     color: #000000;
     text-decoration: none;
     background-color: #ddd;
@@ -90,47 +94,47 @@ h1 {
 
 /* Different Background Colors for Each Project */
 .projects-list a:nth-child(1) {
-    background-color: #9f222c;
+    background-color: #e38282;
 }
 
 .projects-list a:nth-child(2) {
-    background-color: #f06b6b;
+    background-color: #e3af82;
 }
 
 .projects-list a:nth-child(3) {
-    background-color: #92c896;
+    background-color: #e3ce82;
 }
 
 .projects-list a:nth-child(4) {
-    background-color: #c8b36b;
+    background-color: rgb(189, 200, 107);
 }
 
 .projects-list a:nth-child(5) {
-    background-color: #4a606a;
+    background-color: rgb(164, 200, 107);
 }
 
 .projects-list a:nth-child(6) {
-    background-color: #f6b8ee;
+    background-color: rgb(112, 200, 107);
 }
 
 .projects-list a:nth-child(7) {
-    background-color: #b4eaf4;
+    background-color: rgb(107, 200, 181);
 }
 
 .projects-list a:nth-child(8) {
-    background-color: #f3a1f8;
+    background-color: rgb(107, 183, 200);
 }
 
 .projects-list a:nth-child(9) {
-    background-color: #6c2133;
+    background-color: rgb(107, 122, 200);
 }
 
 .projects-list a:nth-child(10) {
-    background-color: #fafb9e;
+    background-color: rgb(127, 107, 200);
 }
 
 .projects-list a:nth-child(11) {
-    background-color: #487459;
+    background-color: rgb(191, 107, 200);
 }
 
 /* Responsive Design */
